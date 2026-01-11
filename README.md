@@ -38,4 +38,20 @@ The game was optimized for the ESP32’s architecture, utilizing:
 Interrupts: For tactile button feedback to ensure zero missed inputs.
 
 Hardware Timers: For precise audio playback and physics calculations.
-
+# ------------------- Included Files -------------------
+**main/com**
+  Handles UART Communications
+**main/config**
+  Holds the majority of constants
+**main/flashlight**
+  The state machines for the flashlight and batter
+**main/player**
+  The state machine for the player
+**main/game**
+  The state machine for the game, controls the main game tick
+**main/graphic**
+  The graphics for the game
+**main/mixkit_arcade_retro**
+  Sound Effect
+**main/short-beep-tone-47916**
+  Sound Effect
