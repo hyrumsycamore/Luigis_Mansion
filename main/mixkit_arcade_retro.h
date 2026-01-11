@@ -1,0 +1,8 @@
+
+#include <stdint.h>
+
+#define MIXKIT_ARCADE_RETRO_BITS_PER_SAMPLE 8
+#define MIXKIT_ARCADE_RETRO_SAMPLE_RATE 24000
+#define MIXKIT_ARCADE_RETRO_SAMPLES 40000
+
+extern const uint8_t mixkit_arcade_retro[MIXKIT_ARCADE_RETRO_SAMPLES];

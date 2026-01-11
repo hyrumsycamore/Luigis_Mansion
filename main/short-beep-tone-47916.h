@@ -1,0 +1,8 @@
+
+#include <stdint.h>
+
+#define SHORT_BEEP_TONE_47916_BITS_PER_SAMPLE 8
+#define SHORT_BEEP_TONE_47916_SAMPLE_RATE 24000
+#define SHORT_BEEP_TONE_47916_SAMPLES 19584
+
+extern const uint8_t short_beep_tone_47916[SHORT_BEEP_TONE_47916_SAMPLES];
