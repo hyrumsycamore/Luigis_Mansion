@@ -1,27 +1,13 @@
 # Luigi's Mansion: ESP32 Embedded Edition
 A hardware-synchronized, two-player embedded game built from the ground up with custom C drivers and a low-latency rendering engine.
 ## 📸 Photo Gallery
+![IMG_2851](https://github.com/user-attachments/assets/c6ae6ac6-7ad3-487e-bdbc-93c53245f1e3)
+![IMG_2850](https://github.com/user-attachments/assets/d37d4482-9a43-4ed2-9bbf-7b2d818d057e)
+![IMG_2849](https://github.com/user-attachments/assets/ea990108-cd99-4ed9-af2b-f248653989fa)
+![IMG_2848](https://github.com/user-attachments/assets/8a7190cb-1817-486f-860a-b36a1f930eeb)
+![IMG_2852](https://github.com/user-attachments/assets/c0021eb7-d7b7-4888-8003-3bfa051d2e10)
 
-### Hardware Setup
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0d69b879-40d3-4945-a462-7d7cac024784" width="30%" />
-  <img src="https://github.com/user-attachments/assets/8e1d739a-e0bc-41c5-b88d-5f8a94a1dd98" width="30%" />
-  <img src="https://github.com/user-attachments/assets/93f50195-4ad5-4a23-a490-a566796537ea" width="30%" />
-</p>
-<p align="center">
-    <em>Left to Right: Wiring harness close-up, full breadboard prototype, unit powered on displaying the map.</em>
-</p>
 
-<br>
-
-### Gameplay Close-ups
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/7648e6ca-5d88-4e10-8399-30fb0732775f" width="45%" />
-  <img src="https://github.com/user-attachments/assets/18709e2c-7d38-4409-a5c3-fcbefde973dc" width="45%" />
-</p>
-<p align="center">
-    <em>Close-ups of the custom rendering engine showing player sprites and wall collision assets.</em>
-</p>
 
 # ------------------- Overview -------------------
 This project is a recreation of Luigi’s Mansion mechanics designed to run on the ESP32 microcontroller. Unlike standard game development using high-level engines, this project involved writing the entire stack—from hardware abstraction layers (HAL) for joysticks and buttons to a custom UART communication protocol for real-time multiplayer synchronization.
