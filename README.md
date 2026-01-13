@@ -1,11 +1,45 @@
 # Luigi's Mansion: ESP32 Embedded Edition
 A hardware-synchronized, two-player embedded game built from the ground up with custom C drivers and a low-latency rendering engine.
 ## 📸 Photo Gallery
-![IMG_2851](https://github.com/user-attachments/assets/c6ae6ac6-7ad3-487e-bdbc-93c53245f1e3)
-![IMG_2850](https://github.com/user-attachments/assets/d37d4482-9a43-4ed2-9bbf-7b2d818d057e)
-![IMG_2849](https://github.com/user-attachments/assets/ea990108-cd99-4ed9-af2b-f248653989fa)
-![IMG_2848](https://github.com/user-attachments/assets/8a7190cb-1817-486f-860a-b36a1f930eeb)
-![IMG_2852](https://github.com/user-attachments/assets/c0021eb7-d7b7-4888-8003-3bfa051d2e10)
+
+<h3 align="center">Hardware Architecture</h3>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8a7190cb-1817-486f-860a-b36a1f930eeb" width="70%" />
+  <br>
+  <em>Dual-core ESP32 setup showing custom UART bridging between the two consoles.</em>
+</p>
+
+<br>
+
+<h3 align="center">Rendering Engine & Flashlight Logic</h3>
+
+<table align="center">
+  <tr>
+    <th align="center" width="50%">Player View (Flashlight OFF)</th>
+    <th align="center" width="50%">Player View (Flashlight ON)</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/ea990108-cd99-4ed9-af2b-f248653989fa" width="100%" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c6ae6ac6-7ad3-487e-bdbc-93c53245f1e3" width="100%" />
+    </td>
+  </tr>
+  
+  <tr>
+    <th align="center">Ghost View (Flashlight OFF)</th>
+    <th align="center">Ghost View (Flashlight ON)</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d37d4482-9a43-4ed2-9bbf-7b2d818d057e" width="100%" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c0021eb7-d7b7-4888-8003-3bfa051d2e10" width="100%" />
+    </td>
+  </tr>
+</table>
 
 
 
