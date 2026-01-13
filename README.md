@@ -87,7 +87,14 @@ To minimize overhead, I avoided standard serialization libraries (like JSON) in 
 * **Memory:** Optimized sprite storage using Struct packing to fit within the ESP32's DRAM limits.
 Hardware Timers: For precise audio playback and physics calculations.
 ## Project Structure  
-```text  
+```text
+├── components
+│   ├── config/         # Previously provided, contains constants needed for other drivers
+│   ├── joy/            # Initializes joystick driver
+│   ├── lcd/            # Initializes display driver, was previously provided
+│   ├── pin/            # Initializes pins
+│   ├── sound/          # Initializes sound drivers
+│   ├── tone/           # Initializes tone drivers 
 ├── main  
 │   ├── com/            # Custom UART communication protocols  
 │   ├── config/         # Global game constants & macros  
